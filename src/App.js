@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {Route, Switch} from 'react-router-dom'
+import {useState, useEffect} from 'react'
+import Home from './Pages/Home'
+
 
 function App() {
+
+  const [menuList, setMenuList] = useState([])
+
+  const getMenuList = async () => {
+    const response = await fetch("http://localhost:1337/menu-items")
+    const data = await response.json()
+    console.log(data)
+    const itemArr = data.map((item, index) => { 
+      console.log("image", item.image)
+       return {
+         id: item.id,
+         name: item.name,
+         img: item?.image[0]?.url,
+         desc: item.description,
+         price: item.price
+      }
+   })
+    setMenuList(itemArr)
+  }
+
+  useEffect(() => {getMenuList()}, [])
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home menuList={menuList}/>
     </div>
   );
 }
