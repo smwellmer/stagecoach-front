@@ -13,6 +13,7 @@ const Menu = (props) => {
                         <div>{item.desc}</div>
                         <div>${item.price}</div>
                         <img src={"http://localhost:1337" + item.img} alt={item.name}/>
+                   
                     </div>
                 )
             })}

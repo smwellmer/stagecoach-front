@@ -2,7 +2,14 @@ import React from 'react'
 import {Route, Switch} from 'react-router-dom'
 import {useState, useEffect} from 'react'
 import Home from './Pages/Home'
+import MyCart from './Pages/MyCart'
+import Header from './Components/Header'
+import Footer from './Components/Footer'
+import Menu from './Components/Menu'
+import ContactUs from './Pages/ContactUs'
+import AboutUs from './Pages/AboutUs'
 
+// http://localhost:1337/menu-items
 
 function App() {
 
@@ -30,7 +37,27 @@ function App() {
 
   return (
     <div className="App">
-      <Home menuList={menuList}/>
+      <Header />
+      <main>
+      <Switch>
+        <Route exact path = '/'>
+          <Home menuList={menuList}/>
+        </Route>
+        <Route path = '/Menu'>
+          <Menu />
+        </Route>
+        <Route path = '/MyCart'>
+          <MyCart />
+        </Route>
+        <Route path = '/AboutUs'>
+          <AboutUs />
+        </Route>
+        <Route path = '/ContactUs'>
+          <ContactUs />
+        </Route>
+        </Switch>
+        <Footer />
+      </main>
     </div>
   );
 }
