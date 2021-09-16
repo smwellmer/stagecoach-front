@@ -1,12 +1,12 @@
 
-import React from "react";
-import Carousel from "react-carousel";
+// import React from "react";
+// import Carousel from "react-carousel";
 
 
-const PhotoCarousel = () => {
-  return (
-    <h1>Photo Carousel</h1>
-  )
-  };
+// const PhotoCarousel = () => {
+//   return (
+//     <h1>Photo Carousel</h1>
+//   )
+//   };
 
-export default PhotoCarousel;
+// export default PhotoCarousel;
