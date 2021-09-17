@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css';
 import {Route, Switch} from 'react-router-dom'
 import {useState, useEffect} from 'react'
 import Home from './Pages/Home'
@@ -11,6 +12,7 @@ import Breakfast from './Components/Breakfast'
 import Lunch from './Components/Lunch'
 import Specials from './Components/Specials'
 import Desserts from './Components/Desserts'
+
 
 function App() {
 
@@ -27,7 +29,7 @@ function App() {
         img: data.includes.Asset.filter((img) => {
           let id = img.sys.id
           return id === item.fields.image.sys.id
-        })[0].fields.file.url,
+          })[0].fields.file.url,
         desc: item.fields.description,
         category: item.fields.category,
       }

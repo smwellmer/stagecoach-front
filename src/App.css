@@ -1,0 +1,28 @@
+/* COLORS */
+/* #98C6D7 LIGHT BLUE */
+/* #841C26 RED */
+/* #1D3354 DARK BLUE */
+/* #F0EDE5 CREAM */
+
+
+html, body {
+    background-color: #F0EDE5;
+}
+
+.logoImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.navLinks {
+    display: flex;
+
+}
+
+.navLinks li {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 5px;
+}
