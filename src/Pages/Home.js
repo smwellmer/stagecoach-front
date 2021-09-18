@@ -10,8 +10,8 @@ const Home = (props) => {
         <div className='homePageText'>
             <h1>Welcome to the Stagecoach Café...</h1>
             <h2>Where we feed you like family!</h2>
-            <button><a href='https://www.grubhub.com/restaurant/stagecoach-cafe-120-jefferson-street-new-carlisle/2829265'>Order on GrubHub!</a></button>
         </div>
+            <button className='button'><a href='https://www.grubhub.com/restaurant/stagecoach-cafe-120-jefferson-street-new-carlisle/2829265'>Order on GrubHub!</a></button>
     </div>
 }
 export default Home

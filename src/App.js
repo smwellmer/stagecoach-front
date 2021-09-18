@@ -45,7 +45,6 @@ function App() {
     <div className="App">
       <Logo />
       <Header />
- 
       <main>
       <Switch>
         <Route exact path = '/'>
