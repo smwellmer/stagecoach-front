@@ -1,8 +1,4 @@
 import React from 'react'
-import Breakfast from '../Components/Breakfast'
-import Lunch  from '../Components/Lunch'
-import Desserts from '../Components/Desserts'
-import Specials from '../Components/Specials'
 import {Link} from 'react-router-dom'
 import { StyledCard } from '../Components/Card.style'
 
@@ -11,9 +7,11 @@ const Menu = (props) => {
     return (
         <div>
         <h1>Our offerings!</h1>
+        <div className="menudiv">
            <StyledCard>
              <Link to='/Breakfast'>Breakfast</Link>
-             {/* <img src='/biscuit.jpeg' /> */}
+             <h4>Served from 7am-11am!</h4>
+            {/* image */}
             </StyledCard>
             <StyledCard>
            <Link to='/Lunch'>Lunch</Link>
@@ -24,6 +22,7 @@ const Menu = (props) => {
             <StyledCard>
             <Link to='/Desserts'>Desserts</Link>
             </StyledCard>
+        </div>
         </div>
     )
 }

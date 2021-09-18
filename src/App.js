@@ -12,6 +12,7 @@ import Breakfast from './Components/Breakfast'
 import Lunch from './Components/Lunch'
 import Specials from './Components/Specials'
 import Desserts from './Components/Desserts'
+import Logo from './Components/Logo'
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
 
   return (
     <div className="App">
+      <Logo />
       <Header />
       <main>
       <Switch>

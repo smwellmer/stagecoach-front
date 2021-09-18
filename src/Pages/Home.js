@@ -1,5 +1,4 @@
 import React from 'react'
-import { StyledHeader } from '../Components/Header.style'
 
 // import PhotoCarousel from '../Components/PhotoCarousel'
 
