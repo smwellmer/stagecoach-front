@@ -4,38 +4,102 @@
 /* #1D3354 DARK BLUE */
 /* #F0EDE5 CREAM */
 
+/* font-family: 'Birthstone', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Grey Qo', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Petit Formal Script', cursive; */
+* { 
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+}
 
 html, body {
     background-color: #F0EDE5;
 }
 
-#logoImage {
+.logoContainer{
     display: flex;
     justify-content: center;
+}
+
+ #logoImage {
     height: 10rem;
-}
+} 
 
-.navlinks{
+.header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: #98C6D7;
+    margin: 0;
+    width: 100%;
+    border-bottom: 5px solid #1D3354;
 }
 
-.link {
+.header a {
     text-decoration: none;
     list-style-type: none;
+    color: #1D3354;
+   
 }
 
+.mainPhotoContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
 
+.mainPhoto{
+    box-sizing: border-box;
+    margin: 0;
+    height: auto;
+    width: auto\9;
+    max-width: 100%;
+}
+.homePage {
+    font-family: 'Petit Formal Script';
+   
+}
+.homePage h1{
+    /* padding: .25em 1.5em; */
+}
 
+.homePage h2{
+    /* padding: .25em 2.5em; */
+}
+.homePageText{
+    color:#1D3354;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.homePageText button{
+    display: flex;
+    justify-content: center;
+    background-color: #841C26;
+    border-radius: 8px;
+    width: 15em;
+    height: 3em;
+    align-items: center;
+}
+.homePageText button a{
+    color: #F0EDE5;
+    text-decoration: none;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
 
-
-
-
-
-
-
-
-
+}
+.footer a{
+    color:#1D3354;
+    text-decoration: none;
+}
 
 /* 
 .menudiv {
