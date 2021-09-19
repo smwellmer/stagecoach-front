@@ -11,10 +11,10 @@ const Home = (props) => {
             <img className='mainPhoto'src="Photos/building.edit.jpg" alt='building'/>
         </div>
         <div className='homePageText'>
-            <h1>Welcome to the Stagecoach Café...</h1>
+            <h1>Welcome to the StageCoach Café...</h1>
             <h2>Where we feed you like family!</h2>
         </div>
-            <button className='button'><a href='https://www.grubhub.com/restaurant/stagecoach-cafe-120-jefferson-street-new-carlisle/2829265'>Order on GrubHub!</a></button>
+            <button className='button'><a href='https://www.doordash.com/store/stagecoach-cafe-new-carlisle-691066/'>Order on DoorDash!</a></button>
             <PhotoCarousel />
     </div>
 }

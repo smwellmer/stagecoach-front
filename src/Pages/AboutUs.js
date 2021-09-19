@@ -4,10 +4,10 @@ const AboutUs = (props) => {
     return (
         <div className='aboutUsContainer'>
             <h1>About StageCoach Café</h1>
-            <img className='img1'  src="mommaamaw1.jpg" alt="Us1"/> 
-            <img className='img2' src="large_building.jpeg" alt="Us2"/> 
-            <img className='img3' src="cafe2.jpg" alt="Us3"/> 
-            <img className='img4' src="cafe1.jpg" alt="Us4"/> 
+            <img className='img1'  src="Photos/mommaamaw1.jpg" alt="Us1"/> 
+            <img className='img2' src="Photos/large_building.jpeg" alt="Us2"/> 
+            <img className='img3' src="Photos/cafe2.jpg" alt="Us3"/> 
+            <img className='img4' src="Photos/cafe1.jpg" alt="Us4"/> 
             <span>
                 The StageCoach Café was founded in 2016 by Andrea Barr. 
 

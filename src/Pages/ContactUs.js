@@ -5,7 +5,7 @@ const ContactUs = (props) => {
     return (
         <div className='contactUs'>
         <h1 className='title'>Contact Us!</h1>
-        <img src='large_building.jpeg' alt='cafe'/>
+        <img src='Photos/large_building.jpeg' alt='cafe'/>
         <div className='contactUsText'>
             <div>
             StageCoach Café
