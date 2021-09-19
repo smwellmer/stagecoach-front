@@ -10,6 +10,7 @@ font-family: 'Grey Qo', cursive;
 font-family: 'Italianno', cursive;
 font-family: 'Petit Formal Script', cursive; */
 * { 
+    font-family: 'Petit Formal Script';
     margin:0; 
     padding:0; 
     box-sizing:border-box; 
@@ -141,6 +142,7 @@ html, body {
     align-items: center;
     margin: auto;
     padding: 2em;
+    margin-bottom: 2em;
 }
 .button a{
     color: #F0EDE5;
@@ -180,4 +182,21 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: .75em;
+}
+
+.contactUs{
+    color:#1D3354;
+    font-family: 'Petit Formal Script';
+    font-weight: bolder;
+}
+.contactUs img{
+    height: auto;
+    width: auto\9;
+    max-width: 100%;
+}
+.contactUsText{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
