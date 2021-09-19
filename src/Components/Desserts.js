@@ -1,18 +1,19 @@
 import React from "react";
+import { StyledCard } from '../Components/Card.style'
 
 const Desserts = (props) => {
   return(
     <div>
-    <h2>Dessert</h2>
+    <h2 className='title'>Dessert</h2>
         {props.menuList.filter(item => item.category === 'dessert').map((item, index) => {
               return (
-                  <div className= 'dessert'>
+                  <StyledCard className= 'dessert'>
                       <div key={item.id}/>
                       <div>{item.name}</div>
-                      <div>{item.desc}</div>
+                      <div className='itemDesc'>{item.desc}</div>
                       <img src={item.img} alt={item.name}/>
                  
-                  </div>
+                  </StyledCard>
               )
           })}
       </div>

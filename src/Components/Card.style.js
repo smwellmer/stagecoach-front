@@ -1,14 +1,18 @@
 import styled from 'styled-components'
 
 export const StyledCard = styled.div`
-    display: grid;
+    display: flex;
+    flex-direction: column;
     border: 2px solid black;
     font-size: 2em;
-    height: 10em;
-    width: 10em;
+    height: 50vh;
+    width: 85vw;
     text-align: center;
     padding: 10px;
-    margin: 2em;
+    margin: auto;
+    margin-bottom: 1em;
+    font-family: 'Petit Formal Script';
+    font-size: 1.5em;
 
         & > a {
             text-decoration: none;
@@ -17,6 +21,17 @@ export const StyledCard = styled.div`
         & > h4 {
             font-size: .75em;
             font-weight: lighter;
+            color: #1D3354;
         }
-
+        & > img {
+            padding-top: .5em;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            overflow: hidden;
+            background-size: cover;
+        }
+        & > .itemDesc {
+            font-size: .5em;
+        }
 `
