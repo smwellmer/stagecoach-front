@@ -41,7 +41,6 @@ html, body {
     text-decoration: none;
     list-style-type: none;
     color: #1D3354;
-   
 }
 
 .mainPhotoContainer{
@@ -79,36 +78,39 @@ html, body {
     margin: .5em;
     height: 100%;
     width: 100%;
+    max-width: 20rem;
 }
 .img2 {
     border: 5px solid #1D3354;
     margin: .5em;
     height: 100%;
     width: 100%;
+    max-width: 20rem;
 }
 .img3 {
     border: 5px solid #1D3354;
     margin: .5em;
     height: 100%;
     width: 100%;
- 
+    max-width: 20rem;
 }
 .img4 {
     border: 5px solid #1D3354;
      margin: .5em;
     height: 100%;
     width: 100%;
-    
+    max-width: 20rem;
 }
 .img5 {
     border: 5px solid #1D3354;
      margin: .5em;
     height: 100%;
     width: 100%; 
+    max-width: 20rem;
 }
 .aboutUsContainer span{
     margin: .5em;
-  
+    margin-bottom: 2em;
 }
 
 .homePageText{
@@ -162,9 +164,8 @@ html, body {
 }
 .menudiv {
     color: #1D3354;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: flex;
+
 }
 
 .title {
@@ -208,14 +209,22 @@ html, body {
         margin:0;
         padding: 0;
     }
-
     .menudiv {
         color: #1D3354;
         display: flex;
-        flex-flow: row wrap;
+        flex-direction: column;
+        
+    
         margin: auto;
     }
-
+    .photodiv{
+        display: flex;
+        align-items: center;
+    }
+    .owner {
+        display: flex;
+        align-items: center;
+    }
 
 }
 

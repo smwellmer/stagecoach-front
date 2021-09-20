@@ -11,7 +11,7 @@ const ContactUs = (props) => {
             StageCoach Café
             </div>
             <div>
-            140 W. Jefferson St.
+            120 W. Jefferson St.
             </div>
             <div>
             New Carlisle, OH 45344
