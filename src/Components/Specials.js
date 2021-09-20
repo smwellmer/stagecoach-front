@@ -12,7 +12,7 @@ const Specials = (props) => {
         <h4>Friday: Chicken and Noodles</h4>
         <h4>Saturday: Chef's Choice</h4>
         </div>
-    
+        <div className='foodDiv'>
         {props.menuList.filter(item => item.category === 'special').map((item, index) => {
               return (
                   <StyledCard className= 'special'>
@@ -24,6 +24,7 @@ const Specials = (props) => {
                   </StyledCard>
               )
           })}
+          </div>
       </div>
   )
 }

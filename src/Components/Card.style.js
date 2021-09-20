@@ -42,10 +42,7 @@ export const StyledCard = styled.div`
     }
 
     @media screen and (min-width: 1024px){
-        * {
-            margin:0;
-            padding: 0;
-        }
+        max-width: 30vw;
        
 
     }

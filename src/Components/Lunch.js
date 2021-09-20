@@ -5,6 +5,7 @@ const Lunch = (props) => {
   return(
     <div>
       <h2 className='title'>Lunch</h2>
+      <div className='foodDiv'>
           {props.menuList.filter(item => item.category === 'lunch').map((item, index) => {
                 return (
                     <StyledCard className= 'lunch'>
@@ -16,6 +17,7 @@ const Lunch = (props) => {
                     </StyledCard>
                 )
             })}
+            </div>
         </div>
   )
 }

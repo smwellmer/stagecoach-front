@@ -145,12 +145,15 @@ html, body {
     background-color: #98C6D7;
     display: flex;
     justify-content: center;
+    align-items: center;
     bottom: 0;
     margin-top: 2em;
+    height: 3em;
 }
 .footer a{
+    font-size: 2em;
     color:#1D3354;
-    padding: 0 2rem;
+    padding: 0 3rem;
     text-decoration: none;
 }
 
@@ -165,7 +168,12 @@ html, body {
 .menudiv {
     color: #1D3354;
     display: flex;
-
+    flex-direction: column;
+}
+.breakfastDiv {
+    color: #1D3354;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -192,6 +200,11 @@ html, body {
     flex-direction: column;
     align-items: center;
 }
+.contactUsText a {
+    margin: 1em;
+    
+    color:#1D3354;
+}
 .specials{
     display: flex;
     flex-direction: column;
@@ -211,11 +224,9 @@ html, body {
     }
     .menudiv {
         color: #1D3354;
-        display: flex;
-        flex-direction: column;
-        
-    
-        margin: auto;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .photodiv{
         display: flex;
@@ -225,7 +236,15 @@ html, body {
         display: flex;
         align-items: center;
     }
+    .foodDiv{
+        color: #1D3354;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .header a {
+        font-size: 1.5em;
 
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -245,10 +264,24 @@ html, body {
    .carousel {
         margin: auto;
         max-width: 75vw;
-        /* max-height: 90vh; */
-
    }
    .homePage {
         font-size: 1.25em;
     }   
+    .foodDiv{
+        color: #1D3354;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .contactPhoto{
+        display:flex;
+        justify-content: center;
+       margin-bottom: 1em;
+    }
+    .aboutUsContainer span {
+        max-width: 70vw;
+    }
+    .owner span {
+        max-width: 50vw;
+    }
 }
