@@ -2,7 +2,7 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 
 export default () => (
-  <Carousel autoPlay>
+  <Carousel autoPlay className='carousel'>
     <div>
       <img alt="biscuit" src="Photos/biscuit.jpeg" />
       <p className="legend">Our Famous Biscuits</p>
@@ -20,22 +20,22 @@ export default () => (
       <p className="legend">Strawberry Rhubarb Pie</p>
     </div>
     <div>
-      <img alt="" src="http://lorempixel.com/output/cats-q-c-640-480-5.jpg" />
-      <p className="legend">Legend 5</p>
+      <img alt="" src="Photos/coconutcreampie.jpeg" />
+      <p className="legend">Coconut Creme Pie</p>
+    </div>
+    <div>
+      <img alt="" src="Photos/applepie.jpeg" />
+      <p className="legend">Caramel Apple Pie</p>
+    </div>
+    <div>
+      <img alt="" src="Photos/baked_potato.jpeg" />
+      <p className="legend">Loaded Baked Potato</p>
+    </div>
+    <div>
+      <img alt="" src="Photos/strawberrystuffeddonut.jpeg" />
+      <p className="legend">Strawberry Stuffed Donut</p>
     </div>
     {/* <div>
-      <img alt="" src="http://lorempixel.com/output/cats-q-c-640-480-6.jpg" />
-      <p className="legend">Legend 6</p>
-    </div>
-    <div>
-      <img alt="" src="http://lorempixel.com/output/cats-q-c-640-480-7.jpg" />
-      <p className="legend">Legend 7</p>
-    </div>
-    <div>
-      <img alt="" src="http://lorempixel.com/output/cats-q-c-640-480-8.jpg" />
-      <p className="legend">Legend 8</p>
-    </div>
-    <div>
       <img alt="" src="http://lorempixel.com/output/cats-q-c-640-480-9.jpg" />
       <p className="legend">Legend 9</p>
     </div>

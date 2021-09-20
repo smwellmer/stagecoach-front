@@ -15,14 +15,18 @@ const Menu = (props) => {
             </StyledCard>
             <StyledCard className='menuCards'>
            <Link to='/Lunch'>Lunch</Link>
+           <h4>Hot and Fresh from 11am-2pm!</h4>
            <img src='Photos/turkeyreuben.jpg' alt='lunchimage'/> 
            </StyledCard>
             <StyledCard className='menuCards'>
             <Link to='/Specials'>Specials</Link>
+            <h4>Click to see our Daily Specials Schedule!</h4>
             <img src='Photos/beef_noodles.jpeg' alt='specialimage'/> 
             </StyledCard>
             <StyledCard className='menuCards'>
             <Link to='/Desserts'>Desserts</Link>
+            <h4>Dessert selection changes daily!
+            </h4>
             <img src='Photos/lazydaisyoatmealcake.jpg' alt='dessertimage'/> 
             </StyledCard>
         </div>

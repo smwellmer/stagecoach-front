@@ -4,11 +4,6 @@
 /* #1D3354 DARK BLUE */
 /* #F0EDE5 CREAM */
 
-/* font-family: 'Birthstone', cursive;
-font-family: 'Dancing Script', cursive;
-font-family: 'Grey Qo', cursive;
-font-family: 'Italianno', cursive;
-font-family: 'Petit Formal Script', cursive; */
 * { 
     font-family: 'Petit Formal Script';
     margin:0; 
@@ -201,6 +196,17 @@ html, body {
     flex-direction: column;
     align-items: center;
 }
+.specials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+.specials h4 {
+    font-size: 1em;
+    padding: .5em;
+}
+
 
 @media screen and (min-width: 768px){
     *{
@@ -219,17 +225,26 @@ html, body {
 }
 
 @media screen and (min-width: 1024px){
-    *{
-        margin:0;
-        padding: 0;
-    }
-
-    .menudiv {
+    .header a {
+        text-decoration: none;
+        list-style-type: none;
         color: #1D3354;
-        display: flex;
-        flex-flow: row wrap;
-        margin: auto;
+        font-size: 1.5em;
     }
+    .button{
+        height: 7em;
+        width: 15em;
+    }
+    .button a{
+        font-size: 1.75em;
+    }
+   .carousel {
+        margin: auto;
+        max-width: 75vw;
+        /* max-height: 90vh; */
 
-
+   }
+   .homePage {
+        font-size: 1.25em;
+    }   
 }
