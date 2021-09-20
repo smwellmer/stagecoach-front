@@ -150,6 +150,7 @@ html, body {
 }
 
 .footer {
+    background-color: #98C6D7;
     display: flex;
     justify-content: center;
     bottom: 0;
@@ -199,4 +200,36 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (min-width: 768px){
+    *{
+        margin:0;
+        padding: 0;
+    }
+
+    .menudiv {
+        color: #1D3354;
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px){
+    *{
+        margin:0;
+        padding: 0;
+    }
+
+    .menudiv {
+        color: #1D3354;
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+    }
+
+
 }

@@ -7,7 +7,11 @@ const Footer = (props) => {
         <a href='https://www.facebook.com/TheStageCoachCafe'>Facebook!</a>
         <a href='https://www.instagram.com/stagecoachcafe/'>Instagram!</a>
 
-        <i class="fab fa-facebook-square"></i>
+        <span>
+            <i class="fab fa-facebook-square"></i>
+        </span>
+
+        
     </div>
      
     )

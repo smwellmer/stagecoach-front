@@ -17,6 +17,7 @@ export const StyledCard = styled.div`
         & > a {
             text-decoration: none;
             color: #1D3354;
+            font-weight: bolder;
         }
         & > h4 {
             font-size: .75em;
@@ -34,4 +35,20 @@ export const StyledCard = styled.div`
         & > .itemDesc {
             font-size: .5em;
         }
+    @media screen and (min-width: 768px){
+            height: 45vh;
+            width: 45vw;
+
+    }
+
+    @media screen and (min-width: 1024px){
+        * {
+            margin:0;
+            padding: 0;
+        }
+       
+
+    }
+
+
 `
