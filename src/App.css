@@ -246,9 +246,9 @@ html, body {
 
     }
     .carousel {
-        margin:auto;
-        max-width: 75vw;
-        max-height: 75vh;
+        margin: auto;
+        max-width: 60vw;
+        max-height: 60vh;
         margin-bottom: 10vh;
    }
 }
@@ -269,8 +269,8 @@ html, body {
     }
    .carousel{
         margin: auto;
-        max-width: 75vw;
-        max-height: 75vh;
+        max-width: 55vw;
+        max-height: 60vh;
         margin-bottom: 10vh;
    }
    .homePage {
@@ -297,8 +297,17 @@ html, body {
 @media screen and (min-width: 1440px){
 .carousel {
     margin: auto;
-    max-width: 60vw;
+    max-width: 40vw;
     max-height: 60vh;
     margin-bottom: 10vh;
 }
 }
+
+@media screen and (min-width: 2200px){
+    .carousel {
+        margin: auto;
+        max-width: 30vw;
+        max-height: 60vh;
+        margin-bottom: 10vh;
+    }
+    }
