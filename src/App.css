@@ -245,6 +245,12 @@ html, body {
         font-size: 1.5em;
 
     }
+    .carousel {
+        margin:auto;
+        max-width: 75vw;
+        max-height: 75vh;
+        margin-bottom: 10vh;
+   }
 }
 
 @media screen and (min-width: 1024px){
@@ -261,9 +267,11 @@ html, body {
     .button a{
         font-size: 1.75em;
     }
-   .carousel {
+   .carousel{
         margin: auto;
         max-width: 75vw;
+        max-height: 75vh;
+        margin-bottom: 10vh;
    }
    .homePage {
         font-size: 1.25em;
@@ -284,4 +292,13 @@ html, body {
     .owner span {
         max-width: 50vw;
     }
+}
+
+@media screen and (min-width: 1440px){
+.carousel {
+    margin: auto;
+    max-width: 60vw;
+    max-height: 60vh;
+    margin-bottom: 10vh;
+}
 }
